@@ -5,6 +5,6 @@ metadata:
   namespace: openshift-adp
 spec:
   includedNamespaces:
-  - $(results.CURRENT_NAMESPACE)
+  - nginx-example
   storageLocation: dpa-sample-1
   ttl: 720h0m0s
