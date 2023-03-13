@@ -1,7 +1,7 @@
 apiVersion: velero.io/v1
 kind: Backup
 metadata:
-  name: $(params.BACKUP_NAME)
+  name: BACKUP_NAME
   namespace: openshift-adp
 spec:
   includedNamespaces:
